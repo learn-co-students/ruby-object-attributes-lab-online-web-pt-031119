@@ -9,10 +9,12 @@ class Dog
     @breed = dogs_breed
   end
   def breed 
-    @dogs_breed 
+    @breed
   end
 end
 fido = Dog.new 
 fido.name = "Fido"
 snoopy = Dog.new 
-snoopy.breed = "Beagle"
+
+snoopy.breed = "Beagle" 
+
