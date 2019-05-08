@@ -1,18 +1,18 @@
 class Person
   
-  def name= (full_name)
-    @name= full_name 
+  def name=(name)
+    @name= name 
   end 
   
     def name 
       @name 
     end 
     
-  def job= (full_job)
-    @job= full_job
+  def job= (job)
+    @job= job
   end 
   
-    def job
-      @job
-    end 
+  def job
+    @job
+   end 
 end 
